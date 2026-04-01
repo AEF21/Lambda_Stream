@@ -1,9 +1,10 @@
 package se.lexicon.stream;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
-import static java.util.stream.Collectors.toList;
+
 
 public class StreamAPI {
 
@@ -35,12 +36,44 @@ public class StreamAPI {
         );
 
 
+        System.out.println("\n---Employees in Engineering department earning more than 60k---");
+        List<Employee> filtredlist = employees.stream()
+                .filter((employee -> employee.getDepartment().equals("Engineering")))
+                .filter(employee -> employee.getSalary() > 60000)
+                .toList();
+        filtredlist.forEach(employee -> System.out.println("Employee: " + employee));
 
-                System.out.println("\n---Employees in Engineering department earning more than 60k---");
-                List<Employee> filtredlist = employees.stream()
-                                .filter((employee->  employees.getDepartment().equals("Engineering")))
-                                        .filter((employee-> employees.getSalary())60000)
-                                                toList();
+        // Get Employee names and sorted by salary
+        System.out.println("\n---Get Employee names and sorted by salary");
+        List<String> namesSortedBySalary = employees.stream()
+                .sorted(Comparator.comparingDouble(Employee::getSalary))
+                .map(Employee::getName)
+                .toList();
+        namesSortedBySalary.forEach(name -> System.out.println("Name:" + name));
+
+        System.out.println("\n--- Calculate total salary expense ---");
+        double totalSalaryExpense = employees.stream()
+                .mapToDouble(Employee::getSalary)
+                .sum();
+
+        System.out.println("Total salary expense: " + totalSalaryExpense);
+
+        //TODO: Counting the total number of employees in the list.
+
+        System.out.println("\n---Calculate total numbers of employees List---");
+        int totalNumbersOfEmployeeList = Math.toIntExact(employees.size());
+        System.out.println("Total number of employees: " + totalNumbersOfEmployeeList);
+
+
+        //TODO: Get unique departments
+        System.out.println("\n---Get unique departments---");
+
+        String uniqueDepartments = String.valueOf(employees.stream().distinct()
+                .map((Employee::getDepartment))
+                .distinct()
+                .toList());
+
+        System.out.println("Unique Departments: " + uniqueDepartments);
 
 
     }

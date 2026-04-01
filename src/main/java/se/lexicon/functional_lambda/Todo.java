@@ -1,4 +1,4 @@
-package se.lexicon.Lambda_Functional;
+package se.lexicon.functional_lambda;
 
 public class Todo {
 

@@ -1,4 +1,4 @@
-package se.lexicon.Lambda_Functional;
+package se.lexicon.functional_lambda;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,7 +40,7 @@ public class Main {
 
 
         // --- Filters ---
-        TaskFilter highPriority = todo -> todo.getPriority() == 1;
+
         TaskFilter mediumPriority = todo -> todo.getPriority() == 3;
         TaskFilter lowPriority = todo -> todo.getPriority() <= 2;
         TaskFilter completed = Todo::isCompleted;
@@ -64,8 +64,8 @@ public class Main {
         TaskAction printTask = task -> System.out.println("Updated: " + task);
 
         // Example: apply action to matching tasks
-        List<Todo> updated = applyToMatchingTasks(todos, highPriority, increasePriority);
-        updated.forEach(printTask);
+        List<Todo> updatedHighPriorityTasks = applyToMatchingTasks(todos, highPriority, markCompleted);
+        updatedHighPriorityTasks.forEach(task -> printTask.run(task));
     }
 
     public static List<Todo> findTasks(List<Todo> todos, TaskFilter filter) {
