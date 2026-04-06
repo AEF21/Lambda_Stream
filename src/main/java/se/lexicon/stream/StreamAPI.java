@@ -68,13 +68,18 @@ public class StreamAPI {
         //TODO: Get unique departments
         System.out.println("\n---Get unique departments---");
 
-        String uniqueDepartments = String.valueOf(employees.stream().distinct()
-                .map((Employee::getDepartment))
+        List<String> uniqueDepartments = employees.stream()
+                .map(employee -> employee.getDepartment())
                 .distinct()
-                .toList());
+                .toList();
+        uniqueDepartments.forEach(department -> System.out.println(department));
 
-        System.out.println("Unique Departments: " + uniqueDepartments);
 
+    //Look at the return type, what should be the return type?
+        //Can you explain why did you use this?
+        //
+        //And please tell me why did you use method reference?
+        //
 
     }
 

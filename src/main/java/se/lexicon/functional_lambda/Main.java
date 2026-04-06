@@ -24,7 +24,7 @@ public class Main {
         System.out.println("\n-- All tasks (initial list) --\n");
 
 
-        todos.forEach(todo -> System.out.println("todo = " + todo));
+        todos.forEach(todo -> System.out.println("Todo = " + todo));
         // Defining filters using Lambdas : boolean matches(Todo todo);
 
         TaskFilter highPriority = todo -> todo.getPriority() >= 4;

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b28470ff-37d2-4ce3-bea7-b73f23c2a5ea" name="Changes" comment="Practicing and completed the lecture examples of lambda and Stream">
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/exercises/functional/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/exercises/functional/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/exercises/functional/PersonAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/exercises/functional/PersonProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/exercises/functional/PersonRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/exercises/stream/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/exercises/stream/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/lexicon/exercises/functional/PersonRuleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/functional_lambda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/functional_lambda/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/functional_lambda/TaskFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/functional_lambda/TaskFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/stream/StreamAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/stream/StreamAPI.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AEF21&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AEF21/Lambda_Stream.git&quot;,
+    &quot;accountId&quot;: &quot;7ff2a76f-60aa-488e-bbab-75abe7ac42fa&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3BkYqLiIZMQn36aibMuSGFUMhlm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.StreamAPI.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "git-widget-placeholder": "Exercises",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/LEXICON/Java/Lambda_Stream",
+    "settings.editor.selected.configurable": "settings.sync",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\LEXICON\Java\Lambda_Stream" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="se.lexicon.exercises.functional" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Lambda_Stream" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Lambda_Stream" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b28470ff-37d2-4ce3-bea7-b73f23c2a5ea" name="Changes" comment="" />
+      <created>1775034726031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775034726031</updated>
+    </task>
+    <task id="LOCAL−00001" summary="Practicing and completed the lecture examples of lambda and Stream">
+      <option name="closed" value="true" />
+      <created>1775051026063</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1775051026063</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Practicing and completed the lecture examples of lambda and Stream">
+      <option name="closed" value="true" />
+      <created>1775051747708</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1775051747708</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Practicing and completed the lecture examples of lambda and Stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practicing and completed the lecture examples of lambda and Stream" />
+  </component>
+</project>
